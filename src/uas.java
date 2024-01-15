@@ -19,13 +19,13 @@ public class uas {
 
             if (kapasitasMesin >= 1000 && kapasitasMesin <= 1200) {
                 lantai3.add(kendaraan);
-                System.out.println("Kendaraan akan ditempatkan di lantai 3");
+                System.out.println("Kendaraan anda akan ditempatkan di lantai 3");
             } else if (kapasitasMesin >= 1500 && kapasitasMesin <= 2000) {
                 lantai2.add(kendaraan);
-                System.out.println("Kendaraan akan ditempatkan di lantai 2");
+                System.out.println("Kendaraan anda akan ditempatkan di lantai 2");
             } else if (kapasitasMesin >= 2500) {
                 lantai1.add(kendaraan);
-                System.out.println("Kendaraan akan ditempatkan di lantai 1");
+                System.out.println("Kendaraan anda akan ditempatkan di lantai 1");
             } else {
                 System.out.println("Kendaraan anda tidak memenuhi ketentuan.");
             }
